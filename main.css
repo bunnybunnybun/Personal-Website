@@ -1,0 +1,65 @@
+:root {
+    --main-bg-color: #feb5fa;
+    --font-color: #000000
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-bg-color);
+  color: var(--font-color);
+}
+
+.content {
+  flex: 1 0 auto;
+  margin: 3% 10% 3% 10%;
+}
+
+.paragraph-type-1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.hidden-link {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.tutorials {
+    font-size: 32px;
+}
+
+.tutorial {
+    background-color: #ff9bf8;
+    padding: 20px;
+    box-shadow: 8px 8px 0px 0px #ff8ef7;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tutorial-est-time, .tutorial-date{
+    background-color: #8efcff;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #72c8cd;
+}
+
+.tutorial-title {
+    font-size: 24px;
+}
+
+
+
+.footer {
+  flex-shrink: 0;
+}

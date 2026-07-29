@@ -1,0 +1,38 @@
+:root {
+    --main-bg-color: #feb5fa;
+    --font-color: #000000
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-bg-color);
+  color: var(--font-color);
+}
+
+.content {
+  flex: 1 0 auto;
+  margin: 3% 10% 3% 10%;
+}
+
+.hidden-link {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #ff9bf8;
+    padding: 20px;
+    box-shadow: 8px 8px 0px 0px #ff8ef7;
+    font-size: 20px;
+}
+
+
+.footer {
+  flex-shrink: 0;
+}
