@@ -50,6 +50,15 @@ code {
     border-color: #7675c3;
 }
 
+.tip {
+    background-color: #60ffaa;
+    padding: 3px 10px 3px 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #47b87a;
+    font-weight: 500;
+}
+
 .back-button {
     display: inline-block;
     padding: 20px;
