@@ -33,12 +33,30 @@ body {
     font-size: 32px;
 }
 
-.tutorial {
+.button {
     background-color: #ff9bf8;
-    padding: 20px;
-    box-shadow: 8px 8px 0px 0px #ff8ef7;
+    box-shadow: 8px 8px 0px 0px #d984d3;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
 }
 
+.button:hover {
+    scale: 1.1;
+}
+
+.button:active {
+    translate: 8px 8px;
+    box-shadow: 0px 0px 0px 0px #d984d3;
+}
+
+.tutorial {
+    padding: 20px;
+}
+
+.tutorial:hover {
+    scale: 1.03;
+}
+    
 .row {
     display: flex;
     flex-direction: row;
