@@ -38,16 +38,27 @@ body {
 }
 
 .button:active {
-    translate: 8px 8px;
+    translate: 0px 0px;
+    scale: 1;
     box-shadow: 0px 0px 0px 0px #d984d3;
 }
 
 code {
     background-color: #9c9cff;
-    padding: 1px 5px 1px 5px;
+    padding: 0px 5px 0px 5px;
     border-style: solid;
     border-width: 2px;
     border-color: #7675c3;
+}
+
+.key {
+    background-color: #3f429a;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 5px;
+    border-color: #919ce8;
 }
 
 .tip {
