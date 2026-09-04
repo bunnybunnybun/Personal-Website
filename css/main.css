@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Agave";
-  src: url(Agave/AgaveNerdFont-Regular.ttf);
+  src: url(../fonts/Agave/AgaveNerdFont-Regular.ttf);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -23,6 +23,7 @@ body {
   font-size: 20px;
   line-height: 1.5;
   font-family: "Agave";
+  margin: 0px;
 }
 
 .content {

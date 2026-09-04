@@ -5,15 +5,7 @@
 
 @font-face {
   font-family: "Agave";
-  src: url(Agave/AgaveNerdFont-Regular.ttf);
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "JetBrainsMono";
-  src: url(JetBrainsMono/JetBrainsMonoNerdFont-Medium.ttf);
+  src: url(../fonts/Agave/AgaveNerdFont-Regular.ttf);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -31,15 +23,12 @@ body {
   font-size: 20px;
   line-height: 1.5;
   font-family: "Agave";
+  margin: 0px;
 }
 
 .content {
   flex: 1 0 auto;
   margin: 3% 10% 3% 10%;
-}
-
-.link::before {
-    content: '';
 }
 
 .hidden-link {
