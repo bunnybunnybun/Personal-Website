@@ -3,6 +3,14 @@
     --font-color: #000000
 }
 
+@font-face {
+  font-family: "Agave";
+  src: url(Agave/AgaveNerdFont-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html, body {
   height: 100%;
 }
@@ -12,6 +20,9 @@ body {
   flex-direction: column;
   background-color: var(--main-bg-color);
   color: var(--font-color);
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Agave";
 }
 
 .content {
