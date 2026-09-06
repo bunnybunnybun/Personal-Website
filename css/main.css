@@ -12,7 +12,7 @@
 }
 
 html, body {
-  height: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -31,7 +31,20 @@ body {
   margin: 3% 10% 3% 10%;
 }
 
-.paragraph-type-1 {
+.introduction {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.introduction img {
+    width: 30%;
+    flex-shrink: 0;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.introduction p {
     text-align: left;
     font-size: 20px;
 }
@@ -39,6 +52,7 @@ body {
 .hidden-link {
     color: var(--font-color);
     text-decoration: none;
+    z-index: 10;
 }
 
 .tutorials {
@@ -80,16 +94,16 @@ body {
 }
 
 .tutorial-est-time, .tutorial-date{
-    background-color: #8efcff;
+    background-color: #9BFFA2;
     margin: 5px;
-    padding: 5px;
+    padding: 0px 5px 0px 5px;
     border-style: solid;
     border-width: 3px;
-    border-color: #72c8cd;
+    border-color: #80d580;
 }
 
 .tutorial-title {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 
