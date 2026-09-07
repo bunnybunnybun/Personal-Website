@@ -11,6 +11,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Cutesy";
+  src: url(../fonts/rainbow-colors-font/RainbowColorsRegular-yaq2.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html, body {
   min-height: 100vh;
 }
@@ -42,10 +50,21 @@ body {
     float: left;
 }
 
-.introduction p {
+.introduction-text {
     text-align: left;
     font-size: 20px;
     float: none;
+}
+
+.introduction-text div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    line-height: 1;
+    margin-top: 15px;
+    font-family: "Cutesy";
+    font-weight: 800;
 }
 
 .hidden-link {
@@ -55,7 +74,10 @@ body {
 }
 
 .tutorials {
-    font-size: 32px;
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-family: "Cutesy";
 }
 
 .button {
