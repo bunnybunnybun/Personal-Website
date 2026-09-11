@@ -108,26 +108,51 @@ body {
     scale: 1;
 }
     
+.tutorial-title {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Cutesy";
+    margin-right: 10px;
+}
+
+@media (width > 800px) {
+    .title-container {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+}
+
+@media (width <= 800px) {
+    .content {
+        margin: 100px 8% 3% 8%;
+    }
+    
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .tutorial-title {
+        font-size: 50px;
+    }
+}
+
 .row {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 0px;
 }
 
-.tutorial-est-time, .tutorial-date{
-    background-color: #9BFFA2;
+.tutorial-est-time, .tutorial-date {
+    background-color: #9c9cff;
     margin: 5px;
     padding: 0px 5px 0px 5px;
     border-style: solid;
     border-width: 3px;
-    border-color: #80d580;
-}
-
-.tutorial-title {
-    font-size: 45px;
-    font-weight: 800;
-    font-family: "Cutesy";
-    margin-right: 10px;
+    border-color: #7675c3;
 }
 
 .footer {
