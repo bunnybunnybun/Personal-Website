@@ -5,4 +5,8 @@ My website for tutorials or whatevs ૮₍ ´ ꒳ `₎ა
 
 You can see it here: https://carlislepoe.com/.
 
-This is very much not finished yet, but uhm yeah ദ്ദി◝ ⩊ ◜.ᐟ
+Right now it is simple and has just one tutorial, but I plan to add more tutorials and potentially blog posts as I write them.
+
+It's written in just plain HTML and CSS, which gives it good compatibility with old devices and what not. It is also good for people who have Javascript disable for privacy reasons.
+
+This is very much not finished yet, but uhm yeah hope you enjoy ദ്ദി◝ ⩊ ◜.ᐟ
